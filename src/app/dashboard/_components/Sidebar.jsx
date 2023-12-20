@@ -46,7 +46,7 @@ export const Sidebar = () => {
             <section className=" bg-white px-8 flex flex-col h-full justify-between rounded-tr-[100px]">
                 <ul className="flex flex-col   pt-8 gap-5">
                     {ArrayElements.map(({ name, icon, link }) => (
-                        <Link href={link}>
+                        <Link href={link} key={name} >
                         <li key={name} className="flex gap-2">
                             
                             <Image
