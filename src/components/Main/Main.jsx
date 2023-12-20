@@ -5,7 +5,7 @@ function Main() {
   return (
     <main className="flex items-center max-w-7xl mx-auto mt-8">
       <section className="w-2/4"> <Celular /> </section>
-      <section className="w-2/4 ">
+      <section cnlassName="w-2/4 ">
         <div className="text-center space-y-6">
           <div className="flex justify-center">
             <h1 className="text-[#EEB154] text-7xl font-bold">Paw</h1>
