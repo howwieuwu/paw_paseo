@@ -15,7 +15,7 @@ function Header() {
           <li>Reseñas</li>
         </ul>
         <button className="bg-[#EEB154] w-[266px] h-[45px] rounded-3xl text-white">
-          <Link href={"/Inicio_sesion"}>Iniciar Sesión</Link>
+          <Link href={"/inicio_sesion"}>Iniciar Sesión</Link>
         </button>
       </div>
     </nav>

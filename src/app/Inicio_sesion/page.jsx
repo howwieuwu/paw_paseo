@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import Girl from "@/../public/image/ChicayDog.png"
 import Paw from "@/../public/image/Paw.png"
+import Link from 'next/link';
 
 function page() {
     return (
@@ -14,7 +15,9 @@ function page() {
                         <input type='email' className='bg-[#BEBDBD] bg-opacity-25 rounded-2xl  w-full h-10 px-4'></input>
                         <h5 className='py-2'>Contraseña</h5>
                         <input type='password' className='bg-[#BEBDBD] bg-opacity-25 rounded-2xl  w-full h-10 px-4'></input>
-                        <button className="bg-[#124C5F] w-full h-[45px] rounded-3xl text-white my-10">Iniciar Sesión</button>
+                        <button className="bg-[#124C5F] w-full h-[45px] rounded-3xl text-white my-10">
+                            <Link href={"/dashboard"}> Iniciar Sesión </Link> 
+                            </button>
                         <h5 className='text-center'>¿No tienes una cuenta? <u>Registrate</u></h5>
                     </div>
                 </div>
